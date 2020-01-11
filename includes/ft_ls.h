@@ -15,5 +15,14 @@
 # include "libft.h"
 # include "ft_printf.h"
 # include "get_next_line.h"
+# include <sys/types.h>
+# include <sys/stat.h>
+# include <dirent.h>
+
+typedef struct		s_ls
+{
+	int				long_form;
+	int				
+} 					t_ls;
 
 #endif
