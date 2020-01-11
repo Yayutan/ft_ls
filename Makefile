@@ -20,7 +20,7 @@ LIBS = -lft -lftprintf
 LFT = libft.a
 PFT = libftprintf.a
 
-LS_SRC_NAME =	main.c
+LS_SRC_NAME =	ft_ls.c
 				
 LS_SRC = $(addprefix $(SRC_PATH), $(LS_SRC_NAME))
 LS_OBJ = $(LS_SRC_NAME:.c=.o)
@@ -35,7 +35,7 @@ $(LFT):
 
 
 $(NAME): $(LS_SRC)
-	@gcc $(FLAGS) $(INC) -o $(NAME) $(LC_SRC) -L $(LIB_PATH) $(LIBS)
+	@gcc $(FLAGS) $(INC) -o $(NAME) $(LS_SRC) -L $(LIB_PATH) $(LIBS)
 	@echo $(GREEN)"Executable compiled" $(CLEAR)
 
 clean:

@@ -1,22 +1,19 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   general_util.h                                     :+:      :+:    :+:   */
+/*   ft_ls.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mchuang <mchuang@student.42.us.org>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/11/21 21:39:22 by mchuang           #+#    #+#             */
-/*   Updated: 2019/11/21 21:39:24 by mchuang          ###   ########.fr       */
+/*   Created: 2020/01/11 09:23:52 by mchuang           #+#    #+#             */
+/*   Updated: 2020/01/11 09:23:54 by mchuang          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef GENERAL_UTIL_H
-# define GENERAL_UTIL_H
+#ifndef FT_LS_H
+# define FT_LS_H
+# include "libft.h"
 # include "ft_printf.h"
-# include "stack.h"
-# include "queue.h"
+# include "get_next_line.h"
 
-void		print_stack(char *info, int c, t_stack *st_a, t_stack *st_b);
-int			*valid_int(char *str);
-void		clean_str_arr(char **a);
 #endif
